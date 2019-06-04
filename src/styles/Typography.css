@@ -1,0 +1,13 @@
+body {
+    font: normal 16px/1.9em "Lato", "Helvetica Neue", Arial, sans-serif;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1, h2, h3 {
+    font-family: "Cormorant Garamond", "Helvetica Neue", Arial;
+    font-weight: 100;
+}
+  

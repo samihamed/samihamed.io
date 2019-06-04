@@ -1,0 +1,10 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.Header > img {
+    height: 4em;
+}

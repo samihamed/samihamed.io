@@ -1,0 +1,49 @@
+.Section {
+    margin: 0 auto;
+    padding: 2em 2em 3em 2em;
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section > span > div {
+    float: right;
+    margin: .5em 0 0 1em;
+
+    border-radius: 4px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+
+    height: 40vh;
+    width: 40vh;
+    max-width: 70vw;
+}
+
+.Section > span > div > img {
+    height: 100%;
+}
+
+.Section > span {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 900px) {
+    .Section {
+        padding: 1em 1em 2em 1em;
+    }
+
+    .Section > span > div {
+        float: none;
+        border: .5em solid #ffffff2e;
+        margin: 1em auto;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        max-height: 70vw;
+    }
+}

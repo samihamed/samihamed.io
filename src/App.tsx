@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './assets/cutout.png'
+
+import Section from './components/Section'
+import Header from './components/Header'
+import Topic from './components/Topic'
+
+import { SectionType } from './types/Section.type'
+
+import './styles/App.css'
+import './styles/Typography.css'
+import { MicroCopy } from './manifest/Section.manifest'
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="Portfolio home">
+        <Header/>
+        <Section
+          section={MicroCopy.Home}
+        />
+        <Topic section={SectionType.About}/>
+      </div>
+      <div className="Portfolio about">
+        <Section
+          section={MicroCopy.About}
+        />
+        <Topic section={SectionType.Blog}/>
+      </div>
+      <div className="Portfolio blog">
+        <Section
+          section={MicroCopy.Blog}
+        />
+        <Topic section={SectionType.Projects}/>
+      </div>
+      <div className="Portfolio projects">
+        <Section
+          section={MicroCopy.Projects}
+        />
+        <Footer/>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
