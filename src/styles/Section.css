@@ -9,9 +9,9 @@
     align-items: center;
 }
 
-.Section > span > div {
+.Section > .section-content > .picture-container {
     float: right;
-    margin: .5em 0 0 1em;
+    margin: 5em 1em 1em 1em;
 
     border-radius: 4px;
     overflow: hidden;
@@ -19,17 +19,31 @@
     display: flex;
     justify-content: center;
 
-    height: 40vh;
-    width: 40vh;
+    height: 30vh;
+    width: 30vh;
     max-width: 70vw;
 }
 
-.Section > span > div > img {
+.Section > .section-content > .picture-container > img {
     height: 100%;
 }
 
-.Section > span {
+.Section > .section-content {
     text-align: justify;
+}
+
+.Section > .section-content > .article {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    box-shadow: 0 0 5px 4px #eaeaea8c;
+    border-radius: 2px;
+    max-height: 80vh;
+    overflow: scroll;
+}
+
+.Section > .section-content > .markdown-block {
+    margin: 2em 0;
 }
 
 @media only screen and (max-width: 900px) {
@@ -37,7 +51,7 @@
         padding: 1em 1em 2em 1em;
     }
 
-    .Section > span > div {
+    .Section > .section-content > .picture-container {
         float: none;
         border: .5em solid #ffffff2e;
         margin: 1em auto;

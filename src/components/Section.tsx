@@ -4,21 +4,25 @@ import portrait from '../assets/portrait.jpg'
 import iphoneXR from '../assets/iphone_xr.png'
 import tweety from '../assets/tweety.png'
 
+import marked from 'marked'
+import { article } from '../articles/2019-03-30'
+
 import '../styles/App.css'
 import '../styles/Section.css'
 import { ManifestSection } from '../types/Manifest.type'
+import { MicroCopy } from '../manifest/Section.manifest';
 
 interface SectionProps {
     section: ManifestSection,
-    head?: string,
-    body?: string,
-    bottom?: string
+    // head?: string,
+    // body?: string,
+    // bottom?: Array<string>
 }
 interface SectionState {
     section?: ManifestSection,
-    head?: string,
+    head: string,
     body: string,
-    bottom?: string
+    bottom: Array<string>
 }
 
 export default class Section extends Component<SectionProps, SectionState> {
@@ -28,37 +32,48 @@ export default class Section extends Component<SectionProps, SectionState> {
         this.state = {
             head: props.section.head || '',
             body: props.section.body || '',
-            bottom: props.section.bottom || ''
+            bottom: props.section.bottom || ['']
         }
+    }
+
+    componentDidMount() {
+        console.log(this.state.bottom)
+    }
+
+    mark(text?: string) {
+        return marked(text || '')
     }
 
     render() {
       return (
         <div className="Section">
             <div>{this.state.head}</div>
-            <h1>
-                {this.state.body}
-            </h1>
-            <span>
+            <h1>{this.state.body}</h1>
+            <div className="section-content">
                 {
-                    this.state.head === ``
-                        ? <div><img src={portrait}/></div>
+                    this.state.head === MicroCopy.About.head
+                        ? <div className="picture-container"><img src={portrait}/></div>
                         : null
                 }
 
                 {
-                    this.state.head === `I MADE THIS`
-                        ? <div><img src={iphoneXR}/></div>
+                    this.state.head === MicroCopy.Projects.head
+                        ? <div className="picture-container"><img src={iphoneXR}/></div>
                         : null
                 }
 
                 {
-                    this.state.head === `THOUGHTS ON LIFE AND SOFTWARE`
-                        ? <div><img src={tweety}/></div>
+                    this.state.head === MicroCopy.Blog.head
+                        ? <div className="article" dangerouslySetInnerHTML={{ __html: this.mark(article)}}></div>
                         : null
                 }
-                {this.state.bottom}
-            </span>
+
+                {
+                    this.state.bottom.map(element => {
+                        return <div className="markdown-block" dangerouslySetInnerHTML={{ __html: this.mark(element)}}></div>
+                    })
+                }
+            </div>
         </div>
       )
     }

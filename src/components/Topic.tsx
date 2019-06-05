@@ -14,6 +14,8 @@ interface TopicState {
 }
 
 export default class Topic extends Component<TopicProps, TopicState> {
+    state: { section: SectionType }
+
     constructor(props: TopicProps) {
         super(props)
 

@@ -1,7 +1,7 @@
 export interface ManifestSection {
     head: string,
     body: string,
-    bottom: string
+    bottom: Array<string>
 }
 
 export interface Manifest {
