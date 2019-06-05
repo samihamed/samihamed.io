@@ -54,7 +54,7 @@ export default class Section extends Component<SectionProps, SectionState> {
 
                 {
                     this.state.head === MicroCopy.Projects.head
-                        ? <div className="picture-container"><img src={iphoneXR}/ alt="A screenshot of a blue iPhone XR showing the CapoeiraSongBot in action"></div>
+                        ? <div className="picture-container"><img src={iphoneXR} alt="A screenshot of a blue iPhone XR showing the CapoeiraSongBot in action"/></div>
                         : null
                 }
 
