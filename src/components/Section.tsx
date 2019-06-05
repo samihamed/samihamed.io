@@ -36,10 +36,6 @@ export default class Section extends Component<SectionProps, SectionState> {
         }
     }
 
-    componentDidMount() {
-        console.log(this.state.bottom)
-    }
-
     mark(text?: string) {
         return marked(text || '')
     }
