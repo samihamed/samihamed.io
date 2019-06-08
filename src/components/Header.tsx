@@ -7,7 +7,7 @@ export default class Header extends Component {
   render() {
         return (
             <div className="Header">
-            <img src={logo}/>
+            <img src={logo} alt="My face as a logo"/>
             </div>
         )
     }

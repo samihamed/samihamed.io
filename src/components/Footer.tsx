@@ -7,7 +7,7 @@ export default class Footer extends Component {
   render() {
         return (
             <div className="Footer">
-            <img src={logo}/>
+            <img src={logo} alt="My face as a logo"/>
             </div>
         )
     }

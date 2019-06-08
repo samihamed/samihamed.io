@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from './assets/cutout.png'
 
 import Section from './components/Section'
 import Header from './components/Header'

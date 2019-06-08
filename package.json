@@ -5,7 +5,10 @@
   "dependencies": {
     "@types/jest": "24.0.13",
     "@types/node": "12.0.4",
+    "@types/marked": "^0.6.5",
     "@types/react-dom": "16.8.4",
+    "@types/react": "^16.8.19",
+    "express": "^4.17.1",
     "marked": "^0.6.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -16,7 +19,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "react-scripts build",
+    "dev-server": "npm run build && node app.js"
+  },
+  "engines": {
+    "node": "~8.11.1",
+    "npm": "~6.9.0"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,8 +42,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@types/marked": "^0.6.5",
-    "@types/react": "^16.8.19"
-  }
+  "devDependencies": {}
 }

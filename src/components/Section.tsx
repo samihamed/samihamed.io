@@ -36,10 +36,6 @@ export default class Section extends Component<SectionProps, SectionState> {
         }
     }
 
-    componentDidMount() {
-        console.log(this.state.bottom)
-    }
-
     mark(text?: string) {
         return marked(text || '')
     }
@@ -52,13 +48,13 @@ export default class Section extends Component<SectionProps, SectionState> {
             <div className="section-content">
                 {
                     this.state.head === MicroCopy.About.head
-                        ? <div className="picture-container"><img src={portrait}/></div>
+                        ? <div className="picture-container"><img src={portrait} alt="A picture of me on a mountain in Norway"/></div>
                         : null
                 }
 
                 {
                     this.state.head === MicroCopy.Projects.head
-                        ? <div className="picture-container"><img src={iphoneXR}/></div>
+                        ? <div className="picture-container"><img src={iphoneXR} alt="A screenshot of a blue iPhone XR showing the CapoeiraSongBot in action"/></div>
                         : null
                 }
 
@@ -70,7 +66,7 @@ export default class Section extends Component<SectionProps, SectionState> {
 
                 {
                     this.state.bottom.map(element => {
-                        return <div className="markdown-block" dangerouslySetInnerHTML={{ __html: this.mark(element)}}></div>
+                        return <div key={this.state.bottom.indexOf(element)} className="markdown-block" dangerouslySetInnerHTML={{ __html: this.mark(element)}}></div>
                     })
                 }
             </div>
