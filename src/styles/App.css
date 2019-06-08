@@ -11,6 +11,12 @@
   background-color: #d1e1e0;
 }
 
+@media only screen and (max-width: 900px) {
+  .home > .Topic {
+    min-height: 25vh;
+  }
+}
+
 .home > .Topic {
   color: #6c908e;
 }
@@ -28,13 +34,13 @@
 }
 
 .blog > .Topic {
-  background-color: #e9c3b8;
+  background-color: #f3e2e4;
 }
 
 .blog > .Topic {
-  color: #6b3728;
+  color: #6D6A75;
 }
 
 .projects {
-  background-color: #e9c3b8;
+  background-color: #f3e2e4;
 }

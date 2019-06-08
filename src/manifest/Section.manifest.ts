@@ -5,13 +5,13 @@ import { capoeiraSongBot, stockOverflow, iaiaioio } from '../articles/projects'
 
 export const MicroCopy: Manifest = {
     'Home': {
-        head: 'HELLO THERE',
-        body: `I'm Sami - a self-taught full-stack web developer & full-on Capoeira instructor`,
+        head: `HI, I'M SAMI`,
+        body: `Self-taught full-stack web developer & full-on Capoeira instructor`,
         bottom: ['Based in Hamburg, Germany 📍']
     },
     'About': {
         head: `MY MOM AND DAD MADE THIS`,
-        body: `Hi - I'm Sami.`,
+        body: ``,
         bottom: [about],
     },
     'Blog': {
@@ -21,7 +21,7 @@ export const MicroCopy: Manifest = {
     },
     'Projects': {
         head: 'I MADE THIS',
-        body: '',
+        body: 'Some things I build or contribute to',
         bottom: [
             capoeiraSongBot,
             stockOverflow,

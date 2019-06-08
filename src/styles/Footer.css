@@ -2,10 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
     padding: 2em;
-    background-color: #ffffffd9;
-    box-shadow: 0 0 8px 0.1px #e9c3b8fc;
-    border-radius: 1px 1px 0 0;
+
+    border-top: 1em solid #f3e2e46b;
+    background-color: white;
 }
 
 .Footer > img {

@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 
 import portrait from '../assets/portrait.jpg'
 import iphoneXR from '../assets/iphone_xr.png'
-import tweety from '../assets/tweety.png'
 
 import marked from 'marked'
 import { article } from '../articles/2019-03-30'
@@ -14,9 +13,6 @@ import { MicroCopy } from '../manifest/Section.manifest';
 
 interface SectionProps {
     section: ManifestSection,
-    // head?: string,
-    // body?: string,
-    // bottom?: Array<string>
 }
 interface SectionState {
     section?: ManifestSection,
@@ -43,12 +39,12 @@ export default class Section extends Component<SectionProps, SectionState> {
     render() {
       return (
         <div className="Section">
-            <div>{this.state.head}</div>
-            <h1>{this.state.body}</h1>
+            <h1>{this.state.head}</h1>
+            <h2>{this.state.body}</h2>
             <div className="section-content">
                 {
                     this.state.head === MicroCopy.About.head
-                        ? <div className="picture-container"><img src={portrait} alt="A picture of me on a mountain in Norway"/></div>
+                        ? <div className="picture-container"><img src={portrait} alt="Me on a mountain in Norway"/></div>
                         : null
                 }
 

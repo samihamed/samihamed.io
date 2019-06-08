@@ -26,7 +26,7 @@ export default class Topic extends Component<TopicProps, TopicState> {
     render() {
         return (
             <div className="Topic">
-                <h2 className="Headline">{this.state.section}</h2>
+                <h1 className="Headline">{this.state.section}</h1>
             </div>
         )
     }

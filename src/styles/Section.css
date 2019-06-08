@@ -42,13 +42,18 @@
     overflow: scroll;
 }
 
+.Section > .section-content > .article > h1 {
+    font-family: "Cormorant Garamond", "Quicksand", "Helvetica Neue", Arial;
+    font-size: 2em;
+}
+
 .Section > .section-content > .markdown-block {
     margin: 2em 0;
 }
 
 @media only screen and (max-width: 900px) {
     .Section {
-        padding: 1em 1em 2em 1em;
+        padding: 0em 1em 2em 1em;
     }
 
     .Section > .section-content > .picture-container {
