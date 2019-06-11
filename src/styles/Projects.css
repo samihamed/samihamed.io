@@ -1,0 +1,30 @@
+.Projects {
+    width: 100%;
+}
+
+.Projects > .row {
+    background-color: #1c3c5f;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4em;
+}
+
+.card {
+    background-color: white;
+    margin: -8em 1em 0 1em;
+    padding: 1em;
+    width: 33%;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 0.1px #40404047;
+    text-align: justify;
+}
+
+.project {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project > img {
+    height: 50px;
+}

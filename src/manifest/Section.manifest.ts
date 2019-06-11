@@ -1,6 +1,6 @@
 import { Manifest } from '../types/Manifest.type'
 
-import { about } from '../articles/about'
+import { aboutMe } from '../articles/about'
 import { capoeiraSongBot, stockOverflow, iaiaioio } from '../articles/projects'
 
 export const MicroCopy: Manifest = {
@@ -12,7 +12,7 @@ export const MicroCopy: Manifest = {
     'About': {
         head: `MY MOM AND DAD MADE THIS`,
         body: ``,
-        bottom: [about],
+        bottom: [aboutMe],
     },
     'Blog': {
         head: 'I WROTE THIS',

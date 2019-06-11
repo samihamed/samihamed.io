@@ -1,0 +1,36 @@
+.body-element {
+    width: 50%;
+    /* height: 100%; */
+}
+
+.Body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 4em;
+}
+
+.primary {
+    background-color: white;
+    text-align: justify;
+}
+
+.secondary {
+    background-color: white;
+    text-align: center;
+
+}
+
+.portrait {
+    max-width: 250px;
+    border-radius: 50%;
+}

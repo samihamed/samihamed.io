@@ -1,0 +1,32 @@
+.rainbow {
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.rainbow-block {
+    width: 20%;
+    height: 10vh;
+
+}
+
+.rainbow > .first {
+    background-color: #456990;
+}
+
+.rainbow > .second {
+    background-color: #49beaa;
+}
+
+.rainbow > .third {
+    background-color: #43c8a1;
+}
+
+.rainbow > .fourth {
+    background-color: #eeb868;
+}
+
+.rainbow > .fifth {
+    background-color: #ef767a;
+}

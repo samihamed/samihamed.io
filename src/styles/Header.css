@@ -1,10 +1,11 @@
 .Header {
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 2em;
+    padding: 2em 5em;
+    background-color: white;
 }
 
-.Header > img {
+.Header > .normal-link > img {
     height: 4em;
+    margin: 0 4em 0 2em;
 }

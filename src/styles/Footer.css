@@ -1,14 +1,24 @@
 .Footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    padding: 2em;
 
-    border-top: 1em solid #f3e2e46b;
     background-color: white;
 }
 
-.Footer > img {
+.Footer > .footer-content > .normal-link > img {
+    padding: 2em;
     height: 4em;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
 }

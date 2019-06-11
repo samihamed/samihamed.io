@@ -1,46 +1,19 @@
-.Portfolio {
+.App {
   min-height: 100vh;
-  margin: 0 5vw;
 
   display: flex;
+  /* margin: 0 2em; */
   flex-direction: column;
   justify-content: space-between;
 }
 
-.home > .Topic {
-  background-color: #d1e1e0;
+@media only screen and (max-width: 900px) {}
+
+.section {
+  display: flex;
+  min-height: 100vh;
 }
 
-@media only screen and (max-width: 900px) {
-  .home > .Topic {
-    min-height: 25vh;
-  }
-}
-
-.home > .Topic {
-  color: #6c908e;
-}
-
-.about {
-  background-color: #d1e1e0;
-}
-
-.about > .Topic {
-  background-color: white;
-}
-
-.about > .Topic {
-  color: black;
-}
-
-.blog > .Topic {
-  background-color: #f3e2e4;
-}
-
-.blog > .Topic {
-  color: #6D6A75;
-}
-
-.projects {
-  background-color: #f3e2e4;
+.primary {
+  flex-direction: row;
 }

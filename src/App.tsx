@@ -1,10 +1,13 @@
 import React from 'react'
 
-import Section from './components/Section'
-import Header from './components/Header'
-import Topic from './components/Topic'
+import Body from './components/Body'
+import Projects from './components/Projects'
+import Tiles from './components/Tiles'
+import Rainbow from './components/Rainbow'
 
-import { SectionType } from './types/Section.type'
+import Home from './components/Home'
+import About from './components/About'
+import Blog from './components/Blog'
 
 import './styles/App.css'
 import './styles/Typography.css'
@@ -13,32 +16,13 @@ import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
-    <div>
-      <div className="Portfolio home">
-        <Header/>
-        <Section
-          section={MicroCopy.Home}
-        />
-        <Topic section={SectionType.About}/>
-      </div>
-      <div className="Portfolio about">
-        <Section
-          section={MicroCopy.About}
-        />
-        <Topic section={SectionType.Blog}/>
-      </div>
-      <div className="Portfolio blog">
-        <Section
-          section={MicroCopy.Blog}
-        />
-        <Topic section={SectionType.Projects}/>
-      </div>
-      <div className="Portfolio projects">
-        <Section
-          section={MicroCopy.Projects}
-        />
-        <Footer/>
-      </div>
+    <div className="App">
+      <Body/>
+      <Projects/>
+      <Tiles/>
+      <Rainbow/>
+      <Blog/>
+      <Footer/>
     </div>
   )
 }
