@@ -16,13 +16,13 @@ export default class Blog extends Component {
         return (
             <div style={{backgroundColor: '#e8e8e8'}}>
 
-                <a className="medium-logo" href="https://medium.com/@samihamed" target="_blank">
+                <a className="medium-logo normal-link" href="https://medium.com/@samihamed" target="_blank">
                     <img src={ medium }/>
                 </a>
 
                 <div className="blog-header">
                     <h2>
-                        Some thoughts on software development
+                        Thoughts on software 💡
                     </h2>
                 </div>
 

@@ -19,6 +19,19 @@
     text-align: justify;
 }
 
+@media only screen and (max-width: 900px) {
+    .Projects > .row {
+        flex-direction: column;
+        margin-top: -4em;
+    }
+
+    .card {
+        margin: 1em;
+        height: 100%;
+        width: calc(100% - 4em);
+    }
+}
+
 .project {
     display: flex;
     justify-content: space-around;

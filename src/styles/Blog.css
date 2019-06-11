@@ -1,10 +1,18 @@
 .article {
-    margin: 0 16em;
+    margin: 0 auto;
+    max-width: 60vw;
     text-align: justify;
     box-shadow: 1px 1px 3px 0.1px #40404047;
     border-radius: 4px;
     padding: 2em;
     background-color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    .article {
+        margin: 1em;
+        max-width: 90vw;
+    }
 }
 
 .blog-header {
