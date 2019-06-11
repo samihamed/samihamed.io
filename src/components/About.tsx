@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import marked from 'marked'
-import { aboutMe } from '../articles/about'
 
 import '../styles/App.css'
 import '../styles/Typography.css'

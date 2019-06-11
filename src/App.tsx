@@ -4,15 +4,12 @@ import Body from './components/Body'
 import Projects from './components/Projects'
 import Tiles from './components/Tiles'
 import Rainbow from './components/Rainbow'
-
-import Home from './components/Home'
-import About from './components/About'
 import Blog from './components/Blog'
+import Footer from './components/Footer';
 
 import './styles/App.css'
 import './styles/Typography.css'
-import { MicroCopy } from './manifest/Section.manifest'
-import Footer from './components/Footer';
+
 
 const App: React.FC = () => {
   return (
