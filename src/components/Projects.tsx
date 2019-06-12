@@ -26,7 +26,7 @@ export default class Projects extends Component {
                 <div className="row">
                     <div className="card">
                         <div className="project">
-                            <img src={ botPic }/>
+                            <img src={ botPic } alt="Placeholder icon for CapoeiraSongBot"/>
                             <h2>CapoeiraSongBot</h2>
 
                         </div>
@@ -34,7 +34,7 @@ export default class Projects extends Component {
                     </div>
                     <div className="card">
                         <div className="project">
-                            <img src={ stockPic }/>
+                            <img src={ stockPic } alt="Placeholder icon for StockOverflow"/>
                             <h2>StockOverflow</h2>
 
                         </div>
@@ -42,8 +42,8 @@ export default class Projects extends Component {
                     </div>
                     <div className="card">
                         <div className="project">
-                            <img src={ notePic }/>
-                            <h2>IaiaIoio</h2>
+                            <img src={ notePic } alt="Placeholder icon for IaiaIoio"/>
+                            <h2>Iaia-Ioio</h2>
 
                         </div>
                         <div dangerouslySetInnerHTML={{ __html: this.mark(iaiaioio)}}></div>

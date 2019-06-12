@@ -23,7 +23,7 @@ export default class Body extends Component {
                     </div>
 
                     <div className="body-element secondary">
-                        <img className="portrait" src={ me }/>
+                        <img className="portrait" alt="Me drinking a cup of Austrian coffee" src={ me }/>
                     </div>
 
                 </div>

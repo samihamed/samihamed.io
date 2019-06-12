@@ -43,7 +43,7 @@ export default class Tiles extends Component<Props, State> {
             for (let j = 0; j < amountDays; j++) {
                 const randomWhiteSpot = Math.floor(Math.random() * 7) === 3
                 const randomWhiteSpot2 = Math.floor(Math.random() * 7) === 3
-                const isActive = j !== 0 && j !== 6 || randomWhiteSpot2
+                const isActive = (j !== 0 && j !== 6) || randomWhiteSpot2
                 week.push({
                     amount: 0,
                     classes: 'tile ' + (
@@ -87,8 +87,8 @@ export default class Tiles extends Component<Props, State> {
     render() {
         return (
             <div style={{backgroundColor: '#e8e8e8'}}>
-                <a className="normal-link" href="https://www.github.com/samihamed" target="_blank">
-                    <img className="github-logo" src={ github }/>
+                <a className="normal-link" href="https://www.github.com/samihamed" rel="noopener noreferrer" target="_blank">
+                    <img className="github-logo" alt="Github logo" src={ github }/>
                 </a>
                 <div className="Tiles">
                     { 
@@ -96,7 +96,7 @@ export default class Tiles extends Component<Props, State> {
                             <div className="week" key={Math.random() * 600}>
                                 {
                                     week.map(day => (
-                                        <a className="unstyled-link" key={Math.random() * 999} href={day.url} target="_blank">
+                                        <a className="unstyled-link" key={Math.random() * 999} href={day.url} rel="noopener noreferrer" target="_blank">
                                             <div className={day.classes}></div>
                                         </a>
                                     ))

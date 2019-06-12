@@ -16,13 +16,13 @@ export default class Blog extends Component {
         return (
             <div style={{backgroundColor: '#e8e8e8'}}>
 
-                <a className="medium-logo normal-link" href="https://medium.com/@samihamed" target="_blank">
-                    <img src={ medium }/>
+                <a className="medium-logo normal-link" rel="noopener noreferrer" href="https://medium.com/@samihamed" target="_blank">
+                    <img alt="Logo of the Medium app" src={ medium }/>
                 </a>
 
                 <div className="blog-header">
                     <h2>
-                        Thoughts on software 💡
+                        Thoughts on software <span role="img" aria-label="Lightbulb emoji">💡</span>
                     </h2>
                 </div>
 
@@ -31,6 +31,7 @@ export default class Blog extends Component {
                 <div className="blog-footer">
                     <a
                         className="blog-link"
+                        rel="noopener noreferrer"
                         href="https://medium.com/@samihamed/4-things-i-learned-from-becoming-a-lead-developer-in-my-first-year-as-a-self-taught-professional-24472fd45fd1" target="_blank"
                     >
                         Read the whole article on Medium.com
