@@ -55,7 +55,6 @@ export default class Tiles extends Component<Props, State> {
                         ? !randomWhiteSpot ? urls[Math.floor(Math.random() * (urls.length - 1))] : ''
                         : ''
                 })
-                console.log(j)
             }
         })
 
