@@ -3,12 +3,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-bottom: 2em;
     background-color: white;
 }
 
 .Footer > .footer-content > .normal-link > img {
-    padding: 2em;
+    padding: 1em;
     height: 4em;
 }
 
