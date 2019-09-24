@@ -1,0 +1,51 @@
+.article {
+  margin: 0 auto;
+  max-width: 60vw;
+  text-align: justify;
+  box-shadow: 1px 1px 3px 0.1px #40404047;
+  border-radius: 4px;
+  padding: 2em;
+  background-color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .article {
+    margin: 1em;
+    max-width: 90vw;
+  }
+}
+
+.blog-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-header > h2 {
+  margin: 0 0 2em 0;
+}
+
+.blog-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5em 0 4em;
+}
+
+.medium-logo {
+  background: transparent;
+  filter: opacity(1);
+  transition: filter ease 0.5s;
+}
+
+.medium-logo:hover {
+  filter: opacity(0.5);
+}
+
+.medium-logo > img {
+  height: 4em;
+  width: 4em;
+  margin: 2em calc((100vw - 4em) / 2);
+}

@@ -1,0 +1,77 @@
+.Tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 8em;
+}
+
+.normal-link {
+    filter: opacity(1);
+    background: transparent;
+    transition: filter .5s;
+    margin: 0;
+}
+
+.normal-link:hover {
+    filter: opacity(.5);
+}
+
+.github-logo {
+    height: 4em;
+    width: 4em;
+    margin: 2em calc((100vw - 4em)/2);
+}
+
+.week {
+    display: flex;
+    flex-direction: column;
+}
+
+.unstyled-link {
+    background: transparent;
+    height: calc(100vw/104);
+    width: calc(100vw/104);
+    margin: calc(100vw/104/4);
+}
+
+.active-link {
+    filter: opacity(1);
+    transition: filter .5s;
+}
+
+.active-link:hover {
+    filter: opacity(.2);
+}
+
+.inactive {
+    cursor: default;
+    user-select: none;
+}
+
+.tile {
+    background-color: #ffffff;
+    height: calc(100vw/104);
+    width: calc(100vw/104);
+    border-radius: 2px;
+}
+
+.primary-tile {
+    background-color: #74c76e;
+}
+
+.secondary-tile {
+    background-color: #3c8536;
+}
+
+.tertiary-tile {
+    background-color: #22531e;
+}
+
+@media only screen and (max-width: 900px) {
+    .tile, .unstyled-link {
+        height: calc(100vw/52);
+        width: calc(100vw/52);
+        border-radius: 0;
+        margin: 0;
+    }
+}
