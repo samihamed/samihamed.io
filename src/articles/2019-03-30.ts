@@ -9,7 +9,34 @@ I got lucky and had the chance to join a local startup as a working student. The
 
 At this point I had a good idea of how our frontend applications worked but I was far from labelling myself an ‘experienced’ web developer. I talked to the CTO and he was convinced that being able to talk to people and understanding what motivates them was equally as important as knowing the inner workings of a product from a business and from a technical side.
 After almost two years in this role I put together a list of things I learned in my role as a team lead while continuously aiming to improve my skills as a professional web developer. I hope it helps or motivates you to make a decision on where to go next!
-`
+
+[...]
+`;
+
+export const article2: string = `# Thoughts on the evolution of machine interfaces — Part 1: Conquering the space of numbers
+## (10 minute read)
+
+Conquering the space of numbers - is the first part of a series I’m putting together about the evolution of machine interfaces and their design throughout time. It is based on notes collected during a research I did before starting to work in software development, studying social anthropology at Goethe University in Frankfurt (a. M.), Germany.
+In its essence this first part describes early occurrences of machine-user interfaces and how technological innovation has resulted in certain cultural conventions surrounding modern computing tools and our concept and usage of numbers in our everyday life. The rest of the series will describe emerging GUIs (graphical user interfaces) and the future of digital computing devices. In addition things will get spicy once we start talking about a slowly dissolving barrier between the human body, its computational tools and its digital user profile — Cyborgs, in a world held together by binary information.
+
+In this first part, however, I’ll start at “zero” discussing how humanity moved on from early tools to complex machines while developing systems of abstractions and continuously rediscovering the space of numbers on the way.
+
+## 0/4 — Finding numbers
+Before numbers started to play a role in society, humans had to learn to externalise meaning and collectively agree on common rulesets surrounding community, values and their immediate environment. Yuval Noah Harari beautifully describes the process on how and why humans started to connect through myths and how they initially started externalising value in currencies and goods in his book Sapiens — a must-read for everyone interested in the development of human society.
+
+In short, collaboration allowed for innovation which in turn allowed for distribution of work-force along a variety of areas, and later on, industries. And in the world’s biggest incident of “that escalated quickly” the human race conquered the planet and soon its surrounding space. Let’s see how that happened.
+About three million years ago early ancestors of Homo Sapiens² started banging rocks against each other to produce stone tools and later weapons to hunt their prey. These early tools allowed them to simplify every-day activities, optimise hunting routines and gave humans the ability to extend their biological body through the usage of external components. Wooden spears found in the south of Germany were dated to be around 380.000 to 400.000 years old. Homo Sapiens² — that’s us! — is around 200.000 years old. Using tools led early humans to develop machinery and generate value out of them. Inventions, such as the wheel allowed humans to carry greater amounts of produce across large distances, while the plow enabled them to use stronger mammals to increase the output of their agricultural endeavours revolutionising farming in the process and allowing for human civilisations to settle and humanity’s first massive shift to occur around 12.000 years ago.
+
+_Modern digitalisation is the second massive shift in human history._
+
+Settlement and an abundance of food brought written language, the development of numeric systems and ceramics with it. Cultivation of produce above the extent of the individual’s needs resulted in an increase of complexity around trade and the movement of goods which in turn resulted in the division of various types of labor and (arguably) a shift away from the individual self towards the community.
+Middlemen who themselves were not producing food were required to maintain order in the distribution of goods, creating value in the process of managing data. This economic system brought a shift in complexity and solidified prices, taxes and abstract numeric forms of value as numbers became a daily companion. Tools enhanced human activities, while numbers made them scalable. And this already before navigation across the oceans turned out to be the coolest thing since… well, before sliced bread.
+
+## 1/4 — Storing numbers
+Once humanity had discovered the space of numbers and scalability became the foundation of economic movement, people needed to find a way to store numbers. Currencies and clay writings became initial storage units of economic value. In fact, the oldest known writing is not poetry — it’s a shopping receipt. Humans had now figured out that they could store, share and reproduce knowledge across space and time.
+
+[...]
+`;
 
 // const article2 = `
 // ## 1 Software development is not all about writing eloquent code
