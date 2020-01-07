@@ -15,15 +15,15 @@ export default class About extends Component {
             <div className="About">
                 <h1>Making things useful and engaging.</h1>
                 <span>
-                    I'm a software developer and capoeira instructor in Hamburg,
+                    I'm a software developer and capoeira instructor in Frankfurt,
                     the developer of the
                     <a href="https://www.capoeira.chat" rel="noopener noreferrer" target="_blank">CapoeiraSongBot</a>
                     & 
                     <a href="https://www.stockoverflow.app" rel="noopener noreferrer" target="_blank">StockOverflow</a>
                     apps, as well as the founder of
                     <a href="https://www.aruanda.de" rel="noopener noreferrer" target="_blank">Aruanda Frankfurt</a>
-                    which I led from 2012 to 2019
-                    . In my studies I became a cultural anthropologist
+                    which I led from 2012 to 2019.
+                    In my studies I became a cultural anthropologist
                     and tree-hugger, traveling Europe to expand my knowledge of
                     Capoeira, and doing little software projects on the side to
                     learn how to build things and make the world a better place.
@@ -33,11 +33,13 @@ export default class About extends Component {
                     and those to come. My hometown is Hamburg where I was born and
                     raised, Frankfurt is where I studied and fell in love with
                     software during my work as a
-                    <a href="https://company.acomodeo.com" rel="noopener noreferrer" target="_blank">lead developer at Acomodeo</a>
-                    . In June 2019 I returned to my hometown Hamburg to work as a
-                    <a href="https://www.finanzcheck.de" rel="noopener noreferrer" target="_blank">full-stack developer at Finanzcheck</a>
-                    . I’m committed to being a 
-                    lifelong learner and love to take on challenges as I go.
+                    <a href="https://company.acomodeo.com" rel="noopener noreferrer" target="_blank">lead developer at Acomodeo.</a>
+                    In 2019 I returned to my hometown Hamburg to work as a
+                    <a href="https://www.finanzcheck.de" rel="noopener noreferrer" target="_blank">full-stack developer at Finanzcheck.</a>
+                    Since 2020 I've been working on improving the co-living platform for customers at
+                    <a href="https://www.homeful.ly" rel="noopener noreferrer" target="_blank">Homefully in my role as the product owner</a>
+                    for digital experience.
+                    I’m committed to being a lifelong learner and love to take on challenges as I go.
                 </span>
                 <br/><br/>
                 <span>
