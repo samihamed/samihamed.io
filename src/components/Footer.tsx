@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Rainbow from "../components/Rainbow";
 
 import logo from "../assets/initials.png";
 
