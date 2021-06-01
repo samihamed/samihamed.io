@@ -42,6 +42,7 @@
 }
 
 .portrait {
-    max-width: 250px;
+    max-height: 400px;
+    max-width: 80%;
     border-radius: 50%;
 }

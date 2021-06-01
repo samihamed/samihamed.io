@@ -10,7 +10,7 @@ export default class Header extends Component {
                 <a className="normal-link" rel="noopener noreferrer" href="https://www.github.com/samihamed" target="_blank">
                     <img src={logo} alt="My face as a logo"/>
                 </a>
-                <h1>Sami Hamed | Full-Stack Web Developer</h1>
+                <h1>Sami Hamed | Product & Software Developer</h1>
             </div>
         )
     }

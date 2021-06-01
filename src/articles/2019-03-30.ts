@@ -24,6 +24,20 @@ Before numbers started to play a role in society, humans had to learn to externa
 [...]
 `;
 
+export const article3: string = `# 3 things we consider when designing digital experiences for physical products at homefully
+## (7 minute read)
+
+When we talk about digital products, we mostly think of video games, mobile apps, and tools which give us access to content — namely Spotify, Youtube, or Medium. We seldom consider that digital products can also serve as a support function for everyday life processes. Working can be digital. Training can be digital. Schooling can be digital. Can even housing become digital?
+
+Since computers took over the workplace, tech companies have made significant progress in digitizing everyday items and services. It takes customers some time to accept these digital products, but the more digital products they use, the more they get used to them.
+
+One of the most impactful cultural shifts around digitization is found in the so-called desktop metaphor. By displaying the top of a user’s desk and designing the product to feel more natural, software companies made their products more accessible. They started a cultural shift that replaced previous working methods with paper and pens… on a desktop.
+
+The concept of work is being supported digitally, and most of you reading this probably appreciate that a lot. How do we find out if the same revolution can occur at home? Here are 3 things I consider when designing digital experiences for our physical products at homefully:
+
+[...]
+`;
+
 // const article2 = `
 // ## 1 Software development is not all about writing eloquent code
 

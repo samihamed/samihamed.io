@@ -36,7 +36,8 @@ export default class Projects extends Component {
           <div className="card">
             <div className="project">
               <img src={stockPic} alt="Placeholder icon for StockOverflow" />
-              <h2>StockOverflow</h2>
+              <h2 style={{textDecoration: 'line-through'}}>StockOverflow</h2>
+              <h3>Deprecated</h3>
             </div>
             <div
               dangerouslySetInnerHTML={{ __html: this.mark(stockOverflow) }}
@@ -45,7 +46,8 @@ export default class Projects extends Component {
           <div className="card">
             <div className="project">
               <img src={notePic} alt="Icon for GingaStore" />
-              <h2>Ginga Store</h2>
+              <h2 style={{textDecoration: 'line-through'}}>Ginga Store</h2>
+              <h3>Deprecated</h3>
             </div>
             <div
               dangerouslySetInnerHTML={{ __html: this.mark(gingaStore) }}

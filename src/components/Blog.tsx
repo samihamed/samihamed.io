@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import marked from "marked";
-import { article, article2 } from "../articles/2019-03-30";
+import { article, article2, article3 } from "../articles/2019-03-30";
 import medium from "../assets/medium.png";
 
 import "../styles/App.css";
@@ -31,6 +31,22 @@ export default class Blog extends Component {
               💡
             </span>
           </h2>
+        </div>
+
+        <div
+          className="article"
+          dangerouslySetInnerHTML={{ __html: this.mark(article3) }}
+        ></div>
+
+        <div className="blog-footer">
+          <a
+            className="blog-link"
+            rel="noopener noreferrer"
+            href="https://samihamed.medium.com/3-things-we-consider-when-designing-digital-experiences-for-physical-products-c5502588ae4e"
+            target="_blank"
+          >
+            Read the whole article on Medium.com
+          </a>
         </div>
 
         <div

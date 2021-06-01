@@ -11,21 +11,26 @@
 }
 
 .rainbow > .first {
-  background-color: #456990;
+  /* background-color: #456990; */
+  background-color: #264653;
 }
 
 .rainbow > .second {
-  background-color: #49beaa;
+  /* background-color: #49beaa; */
+  background-color: #2a9d8f;
 }
 
 .rainbow > .third {
-  background-color: #43c8a1;
+  /* background-color: #43c8a1; */
+  background-color: #e9c46a;
 }
 
 .rainbow > .fourth {
-  background-color: #eeb868;
+  /* background-color: #eeb868; */
+  background-color: #f4a261;
 }
 
 .rainbow > .fifth {
-  background-color: #ef767a;
+  /* background-color: #ef767a; */
+  background-color: #e76f51;
 }

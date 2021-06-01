@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Rainbow from '../components/Rainbow'
 import About from '../components/About'
 
-import me from '../assets/me_free_cut.png'
+import me from '../assets/me.png'
 
 import '../styles/App.css'
 import '../styles/Body.css'
